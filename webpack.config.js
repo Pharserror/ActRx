@@ -2,7 +2,7 @@ module.exports = {
   context: __dirname, // we just want to use $cwd
   // entry is the file that renders our React app.
   entry: {
-    actx: [
+    actrx: [
       './src/plug.js'
     ]
   },
@@ -19,7 +19,7 @@ module.exports = {
       exclude: /node_modules/, // we expect our node modules to already be transpiled
       loader: 'babel-loader',
       query: {
-        presets: ['es2015', 'stage-2', 'stage-0'] // we need to use this preset so that Babel doesn't choke on JSX syntax
+        presets: ['es2015', 'stage-0'] // we need to use this preset so that Babel doesn't choke on JSX syntax
       }
     }, {
       test: /\.s?css$/,

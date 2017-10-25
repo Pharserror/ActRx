@@ -1,10 +1,10 @@
-/* ActX plug for ActR
+/* ActRx plug for ActR
  *
  * A plug for ActR relative to RxJS streams and their events
  */
 import SETTINGS from './settings';
 
-const ActX = {
+const ActRx = {
   naming: (type, ...props) => (
     type.constructor.name !== 'String'
     ? (() => { throw 'Every action supplied to ActionCreator must be a string!'; })()
@@ -17,4 +17,4 @@ const ActX = {
   )
 };
 
-export default ActX;
+export default ActRx;

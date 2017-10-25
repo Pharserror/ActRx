@@ -1,14 +1,14 @@
 {
-  "name": "ActX",
+  "name": "ActRx",
   "version": "0.1.0",
-  "description": "An easy-to-use action creator for Redux",
-  "main": "dist/actx.js",
+  "description": "An ActR plugin for RxJS style actions",
+  "main": "dist/actrx.js",
   "author": "Adam Lind <sunboxnet@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Pharserror/ActX",
+  "homepage": "https://github.com/Pharserror/ActRx",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pharserror/ActX.git"
+    "url": "git+ssh://git@github.com/pharserror/ActRx.git"
   },
   "keywords": [
     "Action",

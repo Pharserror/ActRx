@@ -1,12 +1,12 @@
 import ActionCreator from 'ActR';
-import ActX from '../src/plug';
+import ActRx from '../src/plug';
 import SETTINGS from '../src/settings';
 
-describe('ActX plugin', () => {
+describe('ActRx plugin', () => {
   let subject;
 
   beforeEach(() => {
-    subject = new ActionCreator(['my-action'], { plug: ActX })
+    subject = new ActionCreator(['my-action'], { plug: ActRx })
   });
 
   test('it generates the right actions', () => {

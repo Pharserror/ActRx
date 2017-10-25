@@ -81,9 +81,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; /* ActX plug for ActN
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; /* ActRx plug for ActR
                                                                                                                                                                                                                                                                    *
-                                                                                                                                                                                                                                                                   * A plug for ActN relative to RxJS streams and their events
+                                                                                                                                                                                                                                                                   * A plug for ActR relative to RxJS streams and their events
                                                                                                                                                                                                                                                                    */
 
 
@@ -95,7 +95,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var ActX = {
+var ActRx = {
   naming: function naming(type) {
     for (var _len = arguments.length, props = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
       props[_key - 1] = arguments[_key];
@@ -109,7 +109,7 @@ var ActX = {
   }
 };
 
-exports.default = ActX;
+exports.default = ActRx;
 
 /***/ }),
 /* 2 */
