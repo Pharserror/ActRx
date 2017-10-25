@@ -43,7 +43,7 @@
     ]
   },
   "devDependencies": {
-    "ActN": "git+ssh://git@github.com:Pharserror/ActN.git#master",
+    "ActR": "git+ssh://git@github.com:Pharserror/ActR.git#master",
     "babel-jest": "21.2.0",
     "jest": "21.2.1",
     "jest-cli": "21.2.1",

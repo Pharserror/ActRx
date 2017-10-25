@@ -1,4 +1,4 @@
-import ActionCreator from 'ActN';
+import ActionCreator from 'ActR';
 import ActX from '../src/plug';
 import SETTINGS from '../src/settings';
 

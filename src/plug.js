@@ -1,6 +1,6 @@
-/* ActX plug for ActN
+/* ActX plug for ActR
  *
- * A plug for ActN relative to RxJS streams and their events
+ * A plug for ActR relative to RxJS streams and their events
  */
 import SETTINGS from './settings';
 

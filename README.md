@@ -1,2 +1,2 @@
 # ActX
-An RxJS ActN Plugin
+An RxJS ActR Plugin
