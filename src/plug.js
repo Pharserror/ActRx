@@ -5,6 +5,14 @@
 import SETTINGS from './settings';
 
 const ActRx = {
+  /* naming()
+   *
+   * @param type [String]
+   *
+   * @param props [Array]
+   *
+   * @returns [Object]
+   */
   naming: (type, ...props) => (
     type.constructor.name !== 'String'
     ? (() => { throw 'Every action supplied to ActionCreator must be a string!'; })()

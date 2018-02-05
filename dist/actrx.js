@@ -96,6 +96,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 var ActRx = {
+  /* naming()
+   *
+   * @param type [String]
+   *
+   * @param props [Array]
+   *
+   * @returns [Object]
+   */
   naming: function naming(type) {
     for (var _len = arguments.length, props = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
       props[_key - 1] = arguments[_key];
